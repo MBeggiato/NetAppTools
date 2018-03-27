@@ -1,0 +1,14 @@
+{
+    "name": "NetApp Tools",
+    "version": "1.1",
+    "description": "AU NetApp Tools für Chrome!",
+	"permissions": [
+		"contextMenus",
+		"activeTab"
+	],
+	"background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "manifest_version": 2
+}

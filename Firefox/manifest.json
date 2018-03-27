@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "NetAppTools",
+  "description": "AU Addon für NetApp S/N",
+  "version": "1.1",
+  "applications": {
+    "gecko": {
+	  "id": "mbeggiato@netapp.com"
+    }
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  
+  "permissions": [
+    "menus",
+    "activeTab"
+  ]
+
+}
